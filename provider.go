@@ -2,8 +2,8 @@ package main
 
 import (
 	"log"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform/internal/terraform"
+	"github.com/hashicorp/terraform/internal/legacy/helper/schema"
 )
 
 func Provider() terraform.ResourceProvider {
