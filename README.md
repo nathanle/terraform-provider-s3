@@ -1,3 +1,6 @@
+Pending plan: Build provider with support for things like bucket policies.
+
+
 # terraform-provider-s3
 
 ## Description
