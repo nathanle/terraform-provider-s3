@@ -3,8 +3,7 @@ package main
 import (
 	"errors"
 	"log"
-	//Using the legacy path for now, but I need to replace this soon https://github.com/hashicorp/terraform/pull/34806/commits/46458cf9268147621594f9b7f79a2000c4e52106 
-	"github.com/hashicorp/terraform/internal/legacy/helper/schema"
+	"github.com/hashicorp/terraform/helper/schema"
 	"fmt"
 )
 
