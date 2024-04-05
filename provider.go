@@ -4,8 +4,8 @@ replace github.com/negronjl/terraform-provider-s3 => github.com/nathanle/terrafo
 
 import (
 	"log"
-	"github.com/hashicorp/terraform/internal/terraform"
-	"github.com/hashicorp/terraform/internal/legacy/helper/schema"
+	"github.com/hashicorp/terraform"
+	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func Provider() terraform.ResourceProvider {
