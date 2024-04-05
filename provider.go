@@ -1,5 +1,7 @@
 package main
 
+replace github.com/negronjl/terraform-provider-s3 => github.com/nathanle/terraform-provider-s3
+
 import (
 	"log"
 	"github.com/hashicorp/terraform/internal/terraform"
